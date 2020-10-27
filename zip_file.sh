@@ -8,6 +8,7 @@ fi
     echo Password length $LEN
 
 export PASS=`python random_pass.py -l $LEN`
+echo "Password $PASS"
 echo $PASS > $1.pass
 zip -e -P $PASS $1.zip $1
 echo 'DONE $1'
