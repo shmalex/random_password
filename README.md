@@ -8,7 +8,7 @@ It could be used to set environment variables.
 
 ``export PASS=`python random_pass.py -l $LEN` ``
 
-The argument -l is the password lenght. by default length = `30`
+The argument ``-l`` is the password lenght, by default length = `30`
 
 You can save password into file
 `` python random_pass.py -l $LEN >> mypass.txt ``
